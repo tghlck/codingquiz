@@ -23,16 +23,32 @@ var questions = [
     },
   ];
 
-  var score = 0;
-  
-  for(var i=0; i< questions.length; i++){
-    var response = window.prompt(questions[i].prompt);
-      if(response == questions[i].answer){
-        score++;
-        alert("Correct!");
-      } else {
-        score--;
-        alert("Wrong!");
-      }
-      }
-  
+var score = 0;
+
+var questionIndex = 0;
+
+
+var questionsEl = document.querySelector("#questionsEl");
+
+var questionChoices = document.querySelector("#questionChoices");
+
+var startQuiz = document.querySelector("#startQuiz");
+
+
+startQuiz.addEventListener("click", function()){
+    if() {}
+}
+
+
+
+function renderQuestion(){
+
+}
+
+function startQuiz(){
+
+}
+
+function checkAnswer(){
+    
+}
